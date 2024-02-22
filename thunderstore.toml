@@ -6,4 +6,6 @@ websiteUrl = "https://github.com/SherkeyXD/Maimai-Sounds"
 
 [publish]
 communities = ["lethal-company"]
-categories = ["asset-replacements", "bepinex", "audio", "boombox", "clientside"]
+
+[publish.categories]
+lethal-company = ["asset-replacements", "bepinex", "audio", "boombox", "clientside"]
