@@ -26,9 +26,7 @@ jobs:
 
       - name: Publish to Thunderstore
         run: |
-          tcli publish \
-            --file MaimaiSounds-${{ github.ref_name }}.zip \
-            --package-version ${{ github.ref_name }}
+          tcli publish --file MaimaiSounds-${{ github.ref_name }}.zip
       
       - name: Publish to GitHub
         uses: softprops/action-gh-release@v1
