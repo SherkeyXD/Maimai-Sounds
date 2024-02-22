@@ -1,4 +1,4 @@
-name: Publish to Thunderstore
+name: Publish
 
 on:
   push:
