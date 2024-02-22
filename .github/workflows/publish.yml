@@ -1,0 +1,39 @@
+name: Publish to Thunderstore
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  Publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          show-progress: false
+
+      - name: Make zip
+        run: |
+          zip -r MaimaiSounds-${{ github.ref_name }}.zip . -x='.git/*' -x='.github/*'
+          
+
+      - name: Publish to Thunderstore
+        uses: GreenTF/upload-thunderstore-package@v4.3
+        with:
+          community: Lethal Company
+          name: Maimai Sounds
+          namespace: SherkeyXD
+          version: ${{ github.ref_name }}
+          description: ""
+          file: MaimaiSounds-${{ github.ref_name }}.zip
+          token: ${{ secrets.THUNDERSTORE_TOKEN }}
+          categories: |
+            Audio
+            Asset Replacements
+            Boombox Music
+            BepInEx
+            Client-side
+            

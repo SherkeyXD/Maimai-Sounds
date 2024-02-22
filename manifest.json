@@ -1,0 +1,11 @@
+{
+    "name": "Maimai Sounds",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/SherkeyXD/Maimai-Sounds",
+    "description": "A mod that replaces some default sound effects with musics/effects from maimai DX",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "Clementinise-CustomSounds-2.3.2",
+		"no00ob-LCSoundTool-1.5.1"
+    ]
+}
