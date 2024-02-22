@@ -1,0 +1,9 @@
+[package]
+namespace = "SherkeyXD"
+name = "Maimai Sounds"
+description = "A mod that replaces some default sound effects with musics/effects from maimai DX."
+websiteUrl = "https://github.com/SherkeyXD/Maimai-Sounds"
+
+[publish]
+communities = ["lethal-company"]
+categories = ["asset-replacements", "bepinex", "audio", "boombox", "clientside"]
