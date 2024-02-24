@@ -9,13 +9,8 @@ A mod for [Lethal Company](https://lethalcompany.net/) that replaces some defaul
   - `Scream1.mp3` PANDORA PARADOXXX
   - `Pop1.mp3` None
   - `JesterStomp1/2/3.mp3` Hit Sound
-+ Boombox
-  - `BoomboxMusic1.mp3` QZKago Requiem
-  - `BoomboxMusic2.mp3` Oshama Scramble!
-  - `BoomboxMusic3.mp3` 超常マイマイン
-  - `BoomboxMusic4.mp3` でらっくmaimai♪てんてこまい!
-  - `BoomboxMusic5Zedfox.mp3` 四月の雨
-  - `BoomboxMusic2TVVersion.mp3` OTOGEMA
++ Menu
+  - `Menu1.mp3` maimai DX festival start music
 
 
 ## Installation
